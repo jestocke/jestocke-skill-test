@@ -33,7 +33,7 @@ class EndDateRangeListFilter(admin.SimpleListFilter):
         return [(d, d.strftime("%m/%d/%Y")) for d in end_date_list]
 
     def queryset(self, request, queryset):
-        if "end_date" in self.used_parameters:
+        if 'end_date' in self.used_parameters:
             end_date = datetime.strptime(self.used_parameters['end_date'], '%Y-%m-%d')
             return queryset.filter(end_date__lte=end_date)
         return queryset
