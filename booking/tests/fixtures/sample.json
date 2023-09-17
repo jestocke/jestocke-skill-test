@@ -1,0 +1,111 @@
+[
+{
+        "model": "booking.booking",
+        "pk": 1,
+        "fields": {
+            "tenant": 20,
+            "start_date": "2023-08-23",
+            "end_date": "2023-10-16",
+            "storage_box": 8
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 2,
+        "fields": {
+            "tenant": 7,
+            "start_date": "2023-08-11",
+            "end_date": "2023-09-28",
+            "storage_box": 3
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 3,
+        "fields": {
+            "tenant": 15,
+            "start_date": "2023-07-15",
+            "end_date": "2023-11-17",
+            "storage_box": 14
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 4,
+        "fields": {
+            "tenant": 11,
+            "start_date": "2023-07-24",
+            "end_date": "2023-10-22",
+            "storage_box": 11
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 5,
+        "fields": {
+            "tenant": 3,
+            "start_date": "2023-08-26",
+            "end_date": "2023-11-15",
+            "storage_box": 5
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 6,
+        "fields": {
+            "tenant": 3,
+            "start_date": "2023-06-28",
+            "end_date": "2023-10-10",
+            "storage_box": 13
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 7,
+        "fields": {
+            "tenant": 10,
+            "start_date": "2023-09-29",
+            "end_date": "2024-09-28",
+            "storage_box": 3
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 8,
+        "fields": {
+            "tenant": 19,
+            "start_date": "2023-08-09",
+            "end_date": "2023-10-27",
+            "storage_box": 7
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 9,
+        "fields": {
+            "tenant": 2,
+            "start_date": "2023-06-19",
+            "end_date": "2023-07-23",
+            "storage_box": 11
+        }
+    },
+
+    {
+        "model": "booking.booking",
+        "pk": 10,
+        "fields": {
+            "tenant": 11,
+            "start_date": "2023-07-12",
+            "end_date": "2023-11-18",
+            "storage_box": 10
+        }
+    }
+]
